@@ -19,6 +19,9 @@
     margin-left: -350px;
     margin-top: 80px;
     z-index: 1;
+    background-image: url("https://img.freepik.com/free-photo/abstract-futuristic-background-with-3d-design_1361-3532.jpg?size=626&ext=jpg&uid=R96427501&ga=GA1.2.502812371.1678895708&semt=sph");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .shape-2{
     background-color: red;
@@ -26,6 +29,9 @@
     height: 250px;
     border-radius: 100%;
     position: absolute;
+    background-image: url("https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010127.jpg?size=626&ext=jpg&uid=R96427501&ga=GA1.2.502812371.1678895708&semt=sph");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .shape-3{
     background-color: yellowgreen;
@@ -36,25 +42,51 @@
     margin-top: 120px;
     margin-right: -400px;
     z-index: 1;
+    background-image: url("https://img.freepik.com/free-photo/portrait-hacker_23-2148165877.jpg?size=626&ext=jpg&uid=R96427501&ga=GA1.2.502812371.1678895708&semt=ais");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .inner-wrap{
     width: 100%;
     height: 300px;
-    border: 1px solid red;
+
     margin-top: 440px;
     display: flex;
 }
 .inner{
-    border: 1px solid blue;
+
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .box{
-    background-color: yellowgreen;
+    background-color: dimgrey;
     width: 80%;
     height: 300px;
     box-shadow: 5px 5px 10px black;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inner-shape{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 3px solid mediumpurple;
+    margin-top: -25px;
+    background-color: #ECE9FC;
+}
+.box p{
+    padding: 10px;
+    text-align: justify;
+}
+.box button {
+    width: 120px;
+    height: 50px;
+    background-color: darkslateblue;
+    color: white;
+    border-radius: 25px;
+    border: none;
 }
